@@ -1,0 +1,129 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0px;
+    
+}
+
+.hero{
+    background-image: url(bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px gray solid;
+    
+    
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px black;
+    
+}
+
+
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0px 0px;
+    
+}
+
+.hero nav li{
+  text-decoration:none; 
+    display: block;
+    position: center top;
+    font-family: arial;
+    font-style: normal;
+    color: #20b3ff;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left:285px
+}
+
+.hero nav a{
+    
+    background-color: rgba (0,0,0.3);
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+     
+}
+.hero nav a:hover{
+       background-color: rgba (0,0,0.3);
+
+}
+
+.hero-content p{
+    background-color: rgba(10,23,55,0.5);
+    display: inline-block;
+    background-size: 50%, 25%, 25%;
+    padding: 10px;
+    border-style: groove;
+    border-color: gray;
+    border-width: 2x;
+    border-bottom: 2px solid;
+    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    
+}
+.content-section{
+  background-color: white;
+  padding: 15px; 
+  margin-top: 15px;
+  overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left; 
+    box-sizing: border-box;
+  
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+    display: block;
+    
+}
+
+.card p{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+}
+
+.card img{
+    
+    width: 100%;
+}
+.content-h2{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0px;
+ text-shadow: 3px 3px 5px black;
+}
+
+footer{
+    text-align: center;
+     text-shadow: 2px 2px 2px black;
+    color:white;
+    font-size: 14px;
+}
